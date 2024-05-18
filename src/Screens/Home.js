@@ -4,7 +4,7 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <div name="Home" className={styles.home}>
+    <div name="Inicio" className={styles.home}>
       <div className={styles.titleContainer}>
         <p>
           Expande tus <br />
@@ -17,7 +17,7 @@ const Home = () => {
       </div>
       <div className={styles.ctaContainer}>
         <Link
-          to="Contact"
+          to="Contacto"
           smooth
           duration={500}
           className={styles.callToAction}
@@ -25,7 +25,7 @@ const Home = () => {
           Ponerse en contacto
         </Link>
         <Link
-          to="Contact"
+          to="Contacto"
           smooth
           duration={500}
           className={styles.callToAction}

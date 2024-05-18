@@ -9,7 +9,7 @@ import { FiRepeat } from "react-icons/fi";
 
 const Benefits = () => {
   return (
-    <div name="Benefits" className={styles.benefits}>
+    <div name="Beneficios" className={styles.benefits}>
       <h2 className={styles.benefitTitle}>
         Beneficios de tener una aplicación.
       </h2>

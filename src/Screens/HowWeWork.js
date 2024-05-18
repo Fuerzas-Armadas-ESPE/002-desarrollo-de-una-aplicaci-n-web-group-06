@@ -31,7 +31,7 @@ const HowWeWork = () => {
   ];
 
   return (
-    <div name="HowWeWork" className={styles.howWeWork}>
+    <div name="ComoTrabajamos" className={styles.howWeWork}>
       <h2 className={styles.title}>Asi trabajamos</h2>
       {steps.map((x) => (
         <Step text={x.text} step={x.id} />

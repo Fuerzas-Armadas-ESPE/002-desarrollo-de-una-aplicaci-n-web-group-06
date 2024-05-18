@@ -30,19 +30,19 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "Home",
+      link: "Inicio",
     },
     {
       id: 2,
-      link: "Services",
+      link: "Servicios",
     },
     {
       id: 3,
-      link: "HowWeWork",
+      link: "ComoTrabajamos",
     },
     {
       id: 4,
-      link: "Benefits",
+      link: "Beneficios",
     },
   ];
 
@@ -86,7 +86,7 @@ const NavBar = () => {
                 duration={500}
                 className={styles.navLink}
               >
-                {link === "HowWeWork" ? "How we work" : link}
+                {link === "ComoTrabajamos" ? "Como trabajamos" : link}
               </Link>
               <div className={styles.border}></div>
             </div>
@@ -104,20 +104,21 @@ const NavBar = () => {
                 duration={500}
                 className={styles.navLink}
               >
-                {link === "HowWeWork" ? "How we work" : link}
+                {link === "ComoTrabajamos" ? "Como trabajamos" : link}
               </Link>
               <div className={styles.border}></div>
             </div>
           ))}
           <Link
             onClick={() => setNavBarOpen(false)}
-            to="Contact"
+            to="Contacto"
             smooth
             duration={500}
             className={styles.contactLink}
           >
             Contacto
           </Link>
+          
         </ul>
       )}
     </div>
